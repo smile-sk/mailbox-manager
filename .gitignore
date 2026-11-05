@@ -1,0 +1,34 @@
+# secrets
+.env
+*.env
+secrets.json
+*.keystore
+key.txt
+keys/
+
+# runtime data
+data/
+logs/
+backups/
+*.bak
+*.log
+*.session
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# builds
+dist/
+build/
+*.exe
+*.zip
+node_modules/
+.gradle/
+.idea/
+local.properties
+
+# temp
+_TEMP/
